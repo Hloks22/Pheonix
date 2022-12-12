@@ -902,5 +902,24 @@ body.light-theme{
 
 }
 
-/* login and signup  */
+/* About us */
+.content{
+  font-family: var(--font-family);
+  font-size: 24px;
+  margin: 25px;
+  width: 350px;
+  height: 200px;
+}
+
+.content h1{
+    text-align: center;
+}
+
+.content p{
+    text-align: center;
+   
+    display: flex;
+    flex-direction: row;
+    height: 10px;
+}
 
