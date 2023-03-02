@@ -4,26 +4,23 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body,
 input,
 textarea {
   font-family: "Poppins", sans-serif;
-  background-color: #973704;
+  background-color: #fcf9f8;
 }
 
 .container {
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  padding: 2rem;
-  background-color: #12192c;
+  padding: 5rem;
   overflow: hidden;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
+
 }
 
 .form {
@@ -66,7 +63,7 @@ textarea {
 }
 
 .title {
-  color: #fff;
+  color: #e2e2e2;
   font-weight: 500;
   font-size: 1.5rem;
   line-height: 1;
@@ -84,7 +81,7 @@ textarea {
   border: 2px solid #fafafa;
   background: none;
   padding: 0.6rem 1.2rem;
-  color: #fff;
+  color: #b92d2d;
   font-weight: 500;
   font-size: 0.95rem;
   letter-spacing: 0.5px;
@@ -124,7 +121,7 @@ textarea.input {
   background-color: #fff;
   border: 2px solid #fafafa;
   font-size: 0.95rem;
-  color: orange;
+  color: rgb(0, 89, 255);
   line-height: 1;
   border-radius: 25px;
   outline: none;
@@ -158,10 +155,11 @@ textarea.input {
   opacity: 0;
   transition: 0.3s;
   height: 5px;
-  background-color:rgb(244, 236, 7);
+  background-color:rgb(8, 4, 4);
   top: 50%;
   transform: translateY(-50%);
-  border: rgb(249, 247, 245) 2px solid;
+  border: rgb(12, 12, 12) 2px solid;
+  border-radius: 20px;
 }
 
 .input-container span:before {

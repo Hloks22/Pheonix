@@ -4,13 +4,64 @@
 	<meta charset="UTF-8">
 	<title>CSS User Profile Card</title>
 	<link rel="stylesheet" href="css/style.css">
-	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	
+  <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/logo.jpg">
 </head>
 <body>
 
+    <!-- navigation  -->
+    <header class="header" id="header">
+    <nav class="navbar container">
+      <a href="index.html">
+          <h2 class="logo">Daniel blog</h2>
+      </a>
+      <div class="menu" id="menu">
+          <ul class="list">
+              <li class="list-item">
+                  <a href="#" class="list-link current">Home</a>
+              </li>
+              <li class="list-item">
+                  <a href="about.html" class="list-link">About</a>
+              </li>
+              <li class="list-item">
+                  <a href="contact.html" class="list-link">Contact</a>
+              </li>
+              <li class="list-item">
+                  <a href="profile.html" class="list-link">Profile</a>
+              </li>
+              <li class="list-item">
+                  <a href="signup.html" class="list-link">Login</a>
+              </li>
+              <li class="list-item screen-lg-hidden"> 
+                  <a href="signup.html" class="list-link">Sign in</a>
+              </li>
+              <li class="list-item screen-lg-hidden">
+                  <a href="signup.html" class="list-link">sign up</a>
+              </li>
+          </ul>
+      </div>
+      <div class="list list-Right">
+       
+
+                     <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+              <i class="ri-menu-3-line open-menu-icon"></i>
+              <i class="ri-close-line close-menu-icon"></i>
+          </button>
+
+          <a href="signup.html" class="list-link screen-sm-hidden btn sign-up-btn fancy-border"><span>Sign in</span>
+          </a>
+
+      </div>
+  </nav>
+</header>
+
+  <!-- profile sction -->
 <div class="wrapper">
     <div class="left">
-        <img src="https://i.imgur.com/cMy8V5j.png" 
+        <img src="images/trending/trending_2.jpg" 
         alt="user" width="100">
         <h4>Bill waters</h4>
          <p>software Developer</p>
@@ -54,6 +105,11 @@
       </div>
     </div>
 </div>
+<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 
+<!-- Swiper.js -->
+<script src="js/swiper-bundle.min.js"></script>
+<!-- Custom script -->
+<script src="js/main.js"></script>
 </body>
 </html>
